@@ -7,7 +7,7 @@ from delta_debugging import (
     Debugger,
     Outcome,
     TestCase,
-    ZipMin,
+    TicTocMin,
 )
 
 
@@ -23,7 +23,7 @@ def main() -> None:
     logging.basicConfig(level=logging.DEBUG)
     test_case: TestCase = TestCase(
         list("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHI"),
-        [DDMin(), ZipMin()],
+        [DDMin(), TicTocMin()],
         [None],
         Debugger,
         oracle=oracle,

@@ -241,8 +241,8 @@ class ResultCollection:
         """
         if "HDD" in algorithm and "ddmin" in algorithm:
             return "HDD (ddmin)"
-        elif "HDD" in algorithm and "ZipMin" in algorithm:
-            return "HDD (ZipMin)"
+        elif "HDD" in algorithm and "TicTocMin" in algorithm:
+            return "HDD (TicTocMin)"
         elif "HDD" in algorithm and "ProbDD" in algorithm:
             return "HDD (ProbDD)"
         else:

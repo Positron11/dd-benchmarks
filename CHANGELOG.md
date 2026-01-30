@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Updated examples.
-- Updated ZipMin.
+- Updated TicTocMin.
 - Updated HDD with ProbDD.
 
 ## [0.3.0] - 2025-10-27

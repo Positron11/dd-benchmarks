@@ -11,7 +11,7 @@
     },
     {
         "File": "/tmp/bug_392146",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 70352,
         "Output Size": 65537,
@@ -41,7 +41,7 @@
     },
     {
         "File": "/tmp/bug_392146",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 70352,
         "Output Size": 5866,
@@ -71,7 +71,7 @@
     },
     {
         "File": "/tmp/bug_412377",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 67040,
         "Output Size": 65297,
@@ -101,7 +101,7 @@
     },
     {
         "File": "/tmp/bug_412377",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 67040,
         "Output Size": 1576,
@@ -131,7 +131,7 @@
     },
     {
         "File": "/tmp/bug_460616",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 70520,
         "Output Size": 65537,
@@ -161,7 +161,7 @@
     },
     {
         "File": "/tmp/bug_460616",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 70520,
         "Output Size": 6703,
@@ -191,7 +191,7 @@
     },
     {
         "File": "/tmp/bug_469782",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 76848,
         "Output Size": 65537,
@@ -221,7 +221,7 @@
     },
     {
         "File": "/tmp/bug_469782",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 76848,
         "Output Size": 11877,
@@ -251,7 +251,7 @@
     },
     {
         "File": "/tmp/bug_476465",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 71056,
         "Output Size": 65537,
@@ -281,7 +281,7 @@
     },
     {
         "File": "/tmp/bug_476465",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 71056,
         "Output Size": 7838,
@@ -311,7 +311,7 @@
     },
     {
         "File": "/tmp/bug_489338",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 72744,
         "Output Size": 65537,
@@ -341,7 +341,7 @@
     },
     {
         "File": "/tmp/bug_489338",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 72744,
         "Output Size": 7951,
@@ -371,7 +371,7 @@
     },
     {
         "File": "/tmp/bug_504466",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 70392,
         "Output Size": 65537,
@@ -401,7 +401,7 @@
     },
     {
         "File": "/tmp/bug_504466",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 70392,
         "Output Size": 6019,
@@ -431,7 +431,7 @@
     },
     {
         "File": "/tmp/bug_508154",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 70456,
         "Output Size": 65537,
@@ -461,7 +461,7 @@
     },
     {
         "File": "/tmp/bug_508154",
-        "Algorithm": "HDD with ZipMin using KaitaiStructParser for elf (expand_bytes=True)",
+        "Algorithm": "HDD with TicTocMin using KaitaiStructParser for elf (expand_bytes=True)",
         "Cache": "None",
         "Input Size": 70456,
         "Output Size": 6277,

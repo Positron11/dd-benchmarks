@@ -11,7 +11,7 @@
     },
     {
         "File": "/tmp/bug_20605",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 21504,
         "Output Size": 17782,
@@ -41,7 +41,7 @@
     },
     {
         "File": "/tmp/bug_21135",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 968,
         "Output Size": 808,
@@ -71,7 +71,7 @@
     },
     {
         "File": "/tmp/bug_21136",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 3964,
         "Output Size": 3944,
@@ -101,7 +101,7 @@
     },
     {
         "File": "/tmp/bug_21138",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 4010,
         "Output Size": 3944,
@@ -131,7 +131,7 @@
     },
     {
         "File": "/tmp/bug_21139",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 4011,
         "Output Size": 3992,
@@ -161,7 +161,7 @@
     },
     {
         "File": "/tmp/bug_21143",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 3964,
         "Output Size": 3944,
@@ -191,7 +191,7 @@
     },
     {
         "File": "/tmp/bug_21144",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 3977,
         "Output Size": 3944,
@@ -221,7 +221,7 @@
     },
     {
         "File": "/tmp/bug_21145",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 3180,
         "Output Size": 2680,
@@ -251,7 +251,7 @@
     },
     {
         "File": "/tmp/bug_21409",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 1547,
         "Output Size": 1160,
@@ -281,7 +281,7 @@
     },
     {
         "File": "/tmp/bug_21409_2",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 2353,
         "Output Size": 1422,
@@ -311,7 +311,7 @@
     },
     {
         "File": "/tmp/bug_21414",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 683,
         "Output Size": 680,
@@ -341,7 +341,7 @@
     },
     {
         "File": "/tmp/bug_30886",
-        "Algorithm": "ZipMin",
+        "Algorithm": "TicTocMin",
         "Cache": "None",
         "Input Size": 16880,
         "Output Size": 12321,

@@ -10,7 +10,7 @@ from delta_debugging import (
     Outcome,
     ProbDD,
     TestCase,
-    ZipMin,
+    TicTocMin,
 )
 
 
@@ -41,7 +41,7 @@ def main() -> None:
                     output_file=os.path.join("/tmp", os.path.basename(bug["file"])),
                     algorithms=[
                         DDMin(),
-                        ZipMin(),
+                        TicTocMin(),
                         ProbDD(),
                     ],
                     command=bug["command"],

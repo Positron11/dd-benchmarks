@@ -1,4 +1,4 @@
-"""ZipMin delta debugging algorithm."""
+"""TicTocMin delta debugging algorithm."""
 
 import logging
 from typing import Callable
@@ -12,23 +12,23 @@ from delta_debugging.outcome import Outcome
 logger: logging.Logger = logging.getLogger(__name__)
 
 
-class ZipMin(Algorithm):
-    """ZipMin algorithm.
+class TicTocMin(Algorithm):
+    """TicTocMin algorithm.
 
     Examples:
-        >>> str(ZipMin())
-        'ZipMin'
+        >>> str(TicTocMin())
+        'TicTocMin'
 
     """
 
     def __str__(self) -> str:
-        """Get the string representation of the ZipMin algorithm.
+        """Get the string representation of the TicTocMin algorithm.
 
         Returns:
             Name of the algorithm.
 
         """
-        return "ZipMin"
+        return "TicTocMin"
 
     def _remove_last_char(
         self,
@@ -113,7 +113,7 @@ class ZipMin(Algorithm):
         *,
         cache: Cache | None = None,
     ) -> Configuration:
-        """Run the ZipMin algorithm.
+        """Run the TicTocMin algorithm.
 
         Args:
             config: Configuration to reduce.
@@ -124,7 +124,7 @@ class ZipMin(Algorithm):
             The reduced configuration.
 
         """
-        logger.debug("Starting ZipMin algorithm")
+        logger.debug("Starting TicTocMin algorithm")
         length: int = len(config) // 2
         logging.debug(f"Initial fragment length: {length}")
 
@@ -151,5 +151,5 @@ class ZipMin(Algorithm):
             count += 1
 
         config = pre + config + post
-        logger.debug(f"ZipMin algorithm completed with reduced configuration: {config}")
+        logger.debug(f"TicTocMin algorithm completed with reduced configuration: {config}")
         return config

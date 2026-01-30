@@ -5,7 +5,7 @@ from delta_debugging import (
     Debugger,
     Outcome,
     TestCase,
-    ZipMin,
+    TicTocMin,
 )
 
 
@@ -22,7 +22,7 @@ def oracle(config: Configuration) -> Outcome:
 def test_benchmark() -> None:
     test_case: TestCase = TestCase(
         list(range(10)),
-        [DDMin(), ZipMin()],
+        [DDMin(), TicTocMin()],
         [None],
         Debugger,
         oracle=oracle,

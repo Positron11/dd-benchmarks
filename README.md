@@ -6,7 +6,7 @@ It also provides benchmarks for testing and evaluating the effectiveness and eff
 
 ## Features
 
-- Multiple delta debugging algorithms: ddmin, ZipMin, HDD, ProbDD
+- Multiple delta debugging algorithms: ddmin, TicTocMin, HDD, ProbDD
 - Support for various input types: files (both binary and text), strings, lists
 - Benchmarking tools to evaluate algorithm performance
 - Visualization tools for benchmark results

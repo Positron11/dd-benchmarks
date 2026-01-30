@@ -1,6 +1,6 @@
 import doctest
 
-from delta_debugging import Configuration, Debugger, Outcome, ZipMin
+from delta_debugging import Configuration, Debugger, Outcome, TicTocMin
 
 
 def oracle(config: Configuration) -> Outcome:
@@ -14,8 +14,8 @@ def oracle(config: Configuration) -> Outcome:
     return Outcome.FAIL
 
 
-def test_zipmin() -> None:
-    debugger: Debugger = Debugger(ZipMin(), oracle)
+def test_tictocmin() -> None:
+    debugger: Debugger = Debugger(TicTocMin(), oracle)
     debugger.debug(
         list("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890ABCDEFGHI")
     )
@@ -23,9 +23,9 @@ def test_zipmin() -> None:
 
 
 def test_docstring() -> None:
-    import delta_debugging.algorithms.zipmin
+    import delta_debugging.algorithms.tictocmin
 
     results: doctest.TestResults = doctest.testmod(
-        delta_debugging.algorithms.zipmin, verbose=True
+        delta_debugging.algorithms.tictocmin, verbose=True
     )
     assert results.failed == 0

@@ -1,7 +1,7 @@
 """A delta debugging framework."""
 
 from delta_debugging.algorithm import Algorithm
-from delta_debugging.algorithms import DDMin, HDD, ProbDD, ZipMin
+from delta_debugging.algorithms import DDMin, HDD, ProbDD, TicTocMin
 from delta_debugging.benchmark import Benchmark, TestCase
 from delta_debugging.cache import Cache
 from delta_debugging.caches import HashCache
@@ -22,7 +22,7 @@ __all__: list[str] = [
     "DDMin",
     "HDD",
     "ProbDD",
-    "ZipMin",
+    "TicTocMin",
     "Cache",
     "HashCache",
     "TreeCache",
