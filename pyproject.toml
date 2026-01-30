@@ -12,9 +12,6 @@ dependencies = [
     "tree-sitter-language-pack>=0.9.0",
 ]
 requires-python = ">=3.12"
-authors = [
-    { name = "Feiyang Chen", email = "fche0060@uni.sydney.edu.au" }
-]
 description = "A delta debugging framework."
 readme = "README.md"
 license = "MIT"
@@ -24,12 +21,6 @@ classifiers = [
     "Development Status :: 4 - Beta",
     "Programming Language :: Python"
 ]
-
-[project.urls]
-Homepage = "https://github.com/FreeFlyingSheep/delta-debugging/"
-Documentation = "https://freeflyingsheep.github.io/delta-debugging/"
-Repository = "https://github.com/FreeFlyingSheep/delta-debugging.git"
-Changelog = "https://github.com/FreeFlyingSheep/delta-debugging/blob/master/CHANGELOG.md"
 
 [build-system]
 requires = ["uv_build>=0.8.22,<0.9.0"]

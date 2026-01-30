@@ -130,7 +130,7 @@ pushd ${src_dir}
         popd
     else
         echo "Cloning delta-debugging repository..."
-        git clone https://github.com/FreeFlyingSheep/delta-debugging.git
+        git clone "${REPO_URL:-https://example.com/anonymous/delta-debugging.git}" delta-debugging
     fi
 
     # Install the project

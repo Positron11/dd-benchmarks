@@ -4,8 +4,6 @@ A delta debugging framework implemented in Python.
 This framework helps to isolate the minimal failure-inducing input from a larger input that causes a failure.
 It also provides benchmarks for testing and evaluating the effectiveness and efficiency of delta debugging algorithms.
 
-*This project is a capstone project for COMP5709 (IT Capstone Project - Individual) at The University of Sydney.*
-
 ## Features
 
 - Multiple delta debugging algorithms: ddmin, ZipMin, HDD, ProbDD
@@ -17,15 +15,15 @@ It also provides benchmarks for testing and evaluating the effectiveness and eff
 ## Installation
 
 1. [Install `uv`](https://docs.astral.sh/uv/getting-started/installation/) if you haven't already.
-2. Clone this repository: `git clone https://github.com/FreeFlyingSheep/delta-debugging.git`
-3. Navigate to the project directory: `cd delta-debugging`.
+2. Clone this repository.
+3. Navigate to the project directory.
 4. Install the project: `uv sync`.
 5. (Optional) To install with all extra dependencies for development: `uv sync --all-extras`.
 
 ## Usage
 
 See `examples/` for usage examples.
-See [API documentation](https://FreeFlyingSheep.github.io/delta-debugging) for more details.
+See `docs/` for generated API documentation when built locally.
 
 - `examples/basic.py` uses the delta debugging framework with a custom oracle function.
 - `examples/benchmark.py` uses the benchmarking tools provided by the framework.
@@ -42,7 +40,6 @@ Note that these two examples may take a long time to run.
 
 Additionally, a QEMU image is provided to run the examples in a consistent environment.
 The results of running the examples using the QEMU image are also provided in the `examples/` folder.
-The QEMU image can be downloaded from [Releases](https://github.com/FreeFlyingSheep/delta-debugging/releases).
 
 ## Related Projects
 
